@@ -1,0 +1,16 @@
+PODS:
+  - PopupTransition (1.0.0)
+
+DEPENDENCIES:
+  - PopupTransition (from `../`)
+
+EXTERNAL SOURCES:
+  PopupTransition:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PopupTransition: 23931f95d606572eac392588eb0def384641eeb2
+
+PODFILE CHECKSUM: 06a4e7b712d6478360ae0028c945bb23f336b591
+
+COCOAPODS: 1.7.5

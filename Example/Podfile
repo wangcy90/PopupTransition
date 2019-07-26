@@ -1,0 +1,7 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'PopupTransition_Example' do
+  pod 'PopupTransition', :path => '../'
+  
+end
