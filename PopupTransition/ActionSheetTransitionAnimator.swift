@@ -40,7 +40,7 @@ public struct ActionSheetTransitionAnimator: PopupTransitionAnimator {
         
         presentedView.frame = initialFrame
         
-        UIView.animate(withDuration: duration, delay: 0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0, options: .curveEaseInOut, animations: {
+        UIView.animate(withDuration: duration, animations: {
             
             presentedView.frame = finalFrame
             presentedView.alpha = 1
@@ -67,7 +67,7 @@ public struct ActionSheetTransitionAnimator: PopupTransitionAnimator {
         
         presentedView.frame = initialFrame
         
-        UIView.animate(withDuration: duration, delay: 0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0, options: .curveEaseInOut, animations: {
+        UIView.animate(withDuration: duration, animations: {
             
             presentedView.frame = finalFrame
             presentedView.alpha = 0
